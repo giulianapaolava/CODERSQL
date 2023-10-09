@@ -1,3 +1,6 @@
+
+-- PRIMER STORE PROCEDURES 
+
 DELIMITER //
 CREATE PROCEDURE ModificarDescuentoPromocion(
     IN id_promocion INT,
@@ -26,6 +29,10 @@ BEGIN
 END //
 DELIMITER ;
 
+
+
+
+-- SEGUNDO STORE PROCEDURES 
 
 DELIMITER //
 CREATE PROCEDURE AplicarDescuentoReserva(
